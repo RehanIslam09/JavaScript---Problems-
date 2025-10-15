@@ -19,7 +19,13 @@ function sumOfArray(arr) {
   return arr.reduce(function (acc, curr) {
     acc = acc + curr;
     return acc;
-  })
+  });
 }
 
 console.log(sumOfArray(arr));
+
+function sumOfArray2(arr) {
+  return arr.reduce((total, curr) => (total += curr));
+}
+
+console.log(sumOfArray2(arr));

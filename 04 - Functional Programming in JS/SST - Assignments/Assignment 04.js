@@ -20,3 +20,9 @@ function allPositive(numbers) {
 }
 
 console.log(allPositive(numbers));
+
+function allPositive2(numbers) {
+  return numbers.every((num) => num > 0);
+}
+
+console.log(allPositive2(numbers));

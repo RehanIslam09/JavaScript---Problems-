@@ -14,14 +14,22 @@
 */
 // =========================================
 
-const str = "kimmy";
-const str2 = "madam";
+const str = 'kimmy';
+const str2 = 'madam is si madam';
 
 function isPalindrome(str) {
   // Write your code here
   // return the result
   const reverse = str.toLowerCase().replace(/[^a-z0-9]/g, '');
   return reverse.split('').reverse().join('') === reverse;
+}
+
+console.log(isPalindrome(str));
+console.log(isPalindrome(str2));
+
+function isPalindrome2(str) {
+  const reverse = str.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+  return (reverse = str.split('').reverse().join('') === str);
 }
 
 console.log(isPalindrome(str));

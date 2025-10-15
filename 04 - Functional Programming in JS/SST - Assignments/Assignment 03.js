@@ -21,3 +21,9 @@ function doubleValues(numbers) {
 }
 
 console.log(doubleValues(numbers));
+
+function doubleValues(numbers) {
+  return numbers.map((num) => num * 2);
+}
+
+console.log(doubleValues(numbers));

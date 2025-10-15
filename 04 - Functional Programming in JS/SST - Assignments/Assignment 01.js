@@ -19,12 +19,18 @@
 numbers = [1, 3, 34, -23, 324, 34, 43, -22, 233, 211, 324];
 
 function sumArray(numbers) {
-    // Write your code here
-    // return the result
-    return numbers.reduce(function (acc, curr) {
-        acc = acc + curr;
-        return acc;
-    })
+  // Write your code here
+  // return the result
+  return numbers.reduce(function (acc, curr) {
+    acc = acc + curr;
+    return acc;
+  });
 }
 
 console.log(sumArray(numbers));
+
+function sumOfArray2(nums) {
+  return numbers.reduce((total, curr) => (total += curr));
+}
+
+console.log(sumOfArray2(numbers));

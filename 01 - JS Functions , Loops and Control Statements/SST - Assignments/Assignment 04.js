@@ -23,3 +23,9 @@ function sumOfArray(arr) {
 }
 
 console.log(sumOfArray(arr));
+
+function sum(arr) {
+  return arr.reduce((acc, curr) => (acc += curr));
+}
+
+console.log(sum(arr));

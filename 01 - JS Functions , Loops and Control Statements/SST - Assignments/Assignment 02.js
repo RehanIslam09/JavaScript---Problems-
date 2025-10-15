@@ -20,7 +20,7 @@ function main(str) {
   let vowels = 'aeiouAEIOU';
   for (let char of str) {
     if (vowels.includes(char)) {
-      count++
+      count++;
     }
   }
 
@@ -28,3 +28,14 @@ function main(str) {
 }
 
 console.log(main(str));
+
+function main2(str) {
+  let count = 0;
+  const vowels = 'aeiouAEIOU';
+  for (let char of str) {
+    if (vowels.includes(char)) count++;
+  }
+  return count;
+}
+
+console.log(main2(str));

@@ -21,6 +21,12 @@ function findMaxValue(arr) {
 
 console.log(findMaxValue(arr));
 
+function findMaxValue2(arr) {
+  return Math.max(...arr);
+}
+
+console.log(findMaxValue2(arr));
+
 /*
 -----------------------------------------------------------------------------
 

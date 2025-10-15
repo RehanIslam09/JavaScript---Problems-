@@ -21,7 +21,7 @@
         6
 */
 // =========================================
-let arr = [1, 3, 4, 64, 334, 32, 543, 234, 234234, 233, 4345, 454]
+let arr = [1, 3, 4, 64, 334, 32, 543, 234, 234234, 233, 4345, 454];
 
 function main(arr) {
   // Write your code here
@@ -31,7 +31,11 @@ function main(arr) {
   }
 }
 
+console.log(main(arr));
 
+function main2(arr) {
+  const double = arr.map((num) => num * 2);
+  console.log(double);
+}
 
-
-
+main2(arr);

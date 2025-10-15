@@ -16,7 +16,7 @@
 const str = "I love my darling, Kimmy, so so much! She's my everything";
 
 function main(str) {
-  const vowels = "aeiouAEIOU";
+  const vowels = 'aeiouAEIOU';
   let count = 0;
   for (let char of str) {
     if (vowels.includes(char)) count++;
@@ -26,8 +26,13 @@ function main(str) {
 
 console.log(main(str));
 
+function main2(str) {
+  let count = 0;
+  const vowels = 'aeiouAEIOU';
+  for (let char of str) {
+    if (vowels.includes(char)) count++;
+  }
+  return count;
+}
 
-
-
-
-
+console.log(main2(str));

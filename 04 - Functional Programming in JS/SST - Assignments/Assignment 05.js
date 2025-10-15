@@ -20,3 +20,9 @@ function findFirstNegative(numbers) {
   return numbers.find((num) => num < 0);
 }
 console.log(findFirstNegative(numbers));
+
+function findFirstNegative2(numbers) {
+  return numbers.find((num) => num < 0);
+}
+
+console.log(findFirstNegative2(numbers));
