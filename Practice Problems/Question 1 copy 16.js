@@ -12,4 +12,4 @@ function findUser(users, name) {
   return users.find((user) => user.name === name);
 }
 
-console.log(findUser(users));
+console.log(findUser(users, 'Charlie'));
