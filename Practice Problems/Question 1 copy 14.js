@@ -15,3 +15,9 @@ function doubleNumbers(nums) {
 }
 
 console.log(doubleNumbers(arr));
+
+function doubleNumbers2(nums) {
+  return arr.map((num) => num * 2);
+}
+
+console.log(doubleNumbers2(arr));

@@ -15,3 +15,17 @@ function filterFalsey(arr) {
 }
 
 console.log(filterFalsey(arr));
+
+function filterFalsey(arr) {
+  return arr.filter(Boolean);
+}
+
+function filterFalsey(arr) {
+  return arr.filter(Boolean);
+}
+
+function filterFalsey(arr) {
+  return arr.filter(Boolean);
+}
+
+console.log(filterFalsey(arr));
