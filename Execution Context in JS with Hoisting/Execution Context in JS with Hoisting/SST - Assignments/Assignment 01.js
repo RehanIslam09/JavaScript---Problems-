@@ -15,3 +15,25 @@
 */
 // =========================================
 // =========================================
+
+function getType(value) {
+  if (value === null) return 'null';
+  if (Array.isArray(value)) return 'array';
+  const type = typeof value;
+  if (
+    type === 'undefined' ||
+    type === 'boolean' ||
+    type === 'number' ||
+    type === 'string' ||
+    type === 'symbol' ||
+    type === 'bigint' ||
+    type === 'function'
+  ) {
+    return type;
+  }
+  return 'object';
+}
+
+console.log(getType(null));
+console.log(getType([1, 234, 23]));
+console.log(getType(true));
