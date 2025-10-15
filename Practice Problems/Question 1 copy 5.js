@@ -109,3 +109,11 @@ function mergeObjectsManual(obj1, obj2) {
 }
 
 console.log(mergeObjectsManual(genshinCharacter, beamNGVehicle));
+
+// Merging two objects :
+
+function mergeObjects2(obj1, obj2) {
+  return { ...obj1, ...obj2 };
+}
+
+console.log(mergeObjects2(genshinCharacter, beamNGVehicle));

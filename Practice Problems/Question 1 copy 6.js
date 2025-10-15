@@ -71,3 +71,33 @@ function countPropertiesManual(obj) {
 }
 
 console.log(countPropertiesManual(genshinCharacter));
+
+function countProperties2(obj) {
+  let count = 0;
+  for (let key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      count++;
+    }
+  }
+  return count;
+}
+
+console.log(countProperties2(genshinCharacter));
+
+function countProperties3(obj) {
+  return Object.keys(obj).length;
+}
+
+console.log(countProperties(genshinCharacter));
+
+function countProperties(obj) {
+  return Object.keys(obj).length;
+}
+
+console.log(countProperties(genshinCharacter));
+
+function countProperties(obj) {
+  return Object.keys(obj).length;
+}
+
+console.log(countProperties(genshinCharacter));

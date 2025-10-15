@@ -16,6 +16,10 @@ function sumArray(arr) {
   return arr.reduce((total, current) => total + current, 0);
 }
 
+function sumArray(arr) {
+  return arr.reduce((total, acc) => (total += acc), 0);
+}
+
 // Manual Method :
 
 function sumArrayManual(arr) {

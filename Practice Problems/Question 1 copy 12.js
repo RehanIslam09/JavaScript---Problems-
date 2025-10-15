@@ -17,3 +17,10 @@ function isPalindrome(str) {
 }
 
 console.log(isPalindrome(str));
+
+function isPalindrome2(str) {
+  const reverse = str.toLowerCase().replace(/[^a-zA-Z0-9]/g, '');
+  return reverse.split('').reverse().join('') === str;
+}
+
+console.log(isPalindrome2(str));

@@ -55,3 +55,21 @@ function deepClone(obj) {
 }
 
 console.log(deepClone(genshinCharacter));
+
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
+
+console.log(deepClone(genshinCharacter));
+
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
+
+console.log(deepClone(genshinCharacter));
+
+function deepClone(obj) {
+  return JSON.parse(JSON.stringify(obj));
+}
+
+console.log(deepClone(genshinCharacter));

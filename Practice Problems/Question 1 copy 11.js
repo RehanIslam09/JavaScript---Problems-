@@ -20,3 +20,14 @@ function countVowels() {
 }
 
 console.log(countVowels(str));
+
+function countVowels() {
+  let count = 0;
+  vowels = 'AEIOUaeiou';
+  for (let char of str) {
+    if (vowels.includes(char)) count++;
+  }
+  return count;
+}
+
+console.log(countVowels(str));

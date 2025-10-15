@@ -63,3 +63,16 @@ function swapKeysAndValues(obj) {
 }
 
 console.log(swapKeysAndValues(genshinCharacter));
+
+function swapKeysAndValues(obj) {
+  const swapped = {};
+  for (key in obj) {
+    if (obj.hasOwnProperty(key)) {
+      const value = obj[key];
+      swapped[value] = key;
+    }
+  }
+  return swapped;
+}
+
+console.log(swapKeysAndValues(genshinCharacter));

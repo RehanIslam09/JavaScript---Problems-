@@ -14,4 +14,14 @@ function reverseArray(arr) {
 
 console.log(reverseArray(arr));
 
-// Manual Method :
+function reverseArray2(arr) {
+  return arr.slice().reverse();
+}
+
+console.log(reverseArray2(arr));
+
+function reverseArray3(arr) {
+  return arr.slice().reverse();
+}
+
+console.log(reverseArray3(arr));
