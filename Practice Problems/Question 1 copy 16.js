@@ -13,3 +13,25 @@ function findUser(users, name) {
 }
 
 console.log(findUser(users, 'Charlie'));
+
+function findUser(users, name) {
+  return users.find((user) => user.name === name);
+}
+
+function findUser(users, name) {
+  return users.find((user) => user.name === name);
+}
+
+function findUser(users, name) {
+  return users.find((user) => user.name === name);
+}
+
+function findUser(users, name) {
+  return users.find((user) => user.name === name);
+}
+
+function findUser(users, name) {
+  return users.find((user) => user.name === name);
+}
+
+console.log(findUser(users, 'Alice'));

@@ -5,3 +5,9 @@ function sumArray(nums) {
 }
 
 console.log(sumArray(arr));
+
+function sumArray2(arr) {
+  return arr.reduce((acc, curr) => (acc += curr), 0);
+}
+
+console.log(sumArray2(arr));

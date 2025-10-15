@@ -5,3 +5,11 @@ function allEven(nums) {
 }
 
 console.log(allEven(arr));
+
+arr = [2, 34, 234, 12];
+
+function allEven(nums) {
+  return arr.every((num) => num % 2 == 0);
+}
+
+console.log(allEven(arr));
